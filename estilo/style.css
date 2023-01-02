@@ -83,7 +83,7 @@ font-family: "Rubik", sans-serif;
 	width: auto;
 	height: auto;
 	margin-top: 4%;
-	background: transparent;
+		
 }
 
 .container-btn button{
@@ -125,6 +125,11 @@ border: 2px solid var(--cortitulo);
 .rodape h3{
 	font-size: 16px;
 }
+.rodape li{
+    text-decoration: none;
+    list-style: none;
+}
+
 .icons ion-icon{
 	width: 25px;
 	height: 25px;
