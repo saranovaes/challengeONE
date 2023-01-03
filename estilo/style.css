@@ -1,37 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 
 :root{
-	--corprincipal: #ffcdd2;
-	--corsegundaria:#ffcdd2;
-	--cortitulo: #7c0160;
+	--corprincipal: #ADD8E6;
+	--corsegundaria:#ADD8E6;
+	--cortitulo: #363636;
 }
 
 body{
 	background: var(--corsegundaria);
 }
 
-*{margin: 0;
-padding: 0;
-font-family: "Rubik", sans-serif;
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Inter', monospace;
 
 }
 
 .cabecalho{
 	display: flex;
-	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
 	padding: 2%;
+	margin-top: 15px;
+	background: var(--corprincipal);
+	color: var(--cortitulo);
 
 }
+
 .cabecalho h1{
 	color: var(--cortitulo);
-	text-align:inherit;
-}
-
-.cabecalho img{
-	max-width: 70px;
-	max-height: 70px;
-	width: auto;
-	height: auto;
+	text-align:center;
 }
 
 .container-input{
@@ -42,7 +42,7 @@ font-family: "Rubik", sans-serif;
 
 .container-input .input{
 	width: 400px;
-	height: 330px;
+	height: 30px;
 }
 #input-texto{
 	width: 345;
@@ -55,6 +55,10 @@ font-family: "Rubik", sans-serif;
 	outline: 0;
 	padding: 10px;
 	text-transform: lowercase;
+}
+#input-texto p{
+	font-size: 10px;
+	color: var(--cortitulo);		
 }
 
 #output{
@@ -75,33 +79,35 @@ font-family: "Rubik", sans-serif;
 #output span{
 	font-size: 16px;
 	text-align: center;
+	color: #8B7B8B;
 }
 
 #output img{
 	max-width: 500px;
-	max-height: 500px;
+	max-height: 600px;
 	width: auto;
 	height: auto;
 	margin-top: 4%;
-		
+	background: transparent;
 }
 
 .container-btn button{
 	border: 2px solid var(--cortitulo);
 	border-radius: 10px;
 	text-decoration: none;
-	color: #7c0160;
+	color: ##363636;
 	width: 150px;
 	height: 50px;
 	margin-left: 4%;
 	cursor: pointer;
+	margin top: 15xp;
 }
 
 .btn-copiar{
 border: 2px solid var(--cortitulo);
 	border-radius: 10px;
 	text-decoration: none;
-	color: #7c0160;
+	color: ##363636;
 	width: 150px;
 	height: 50px;
 	margin-bottom: 10%;

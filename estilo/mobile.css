@@ -2,22 +2,17 @@
 
     .cabecalho{
         display: flex;
-        justify-content:left;
-        padding: 3%;
+        flex-direction: column;
+        align-items: center;
+        background:var(--corprincipal);
+        color: var(--cortitulo);
+        width: 68%; 
     }
 
     .cabecalho h1{
-      font-size: 25px;
-
+      font-size: 20px;   
     }
 
-    .cabecalho img{
-        max-width:90px;
-        max-height:40px;
-        width: auto;
-        height: auto;
-    }
-    
     .container-input .input{
         width: 400px;
         height: 330px;
@@ -32,8 +27,8 @@
 
      #input-texto{
         width: 400px;
-        height: 330px;
-        font-size: 20px;
+        height:280px;
+        font-size: 10px;
     }
 
     
@@ -57,7 +52,6 @@
    width: 150px;
    height: 50px;
    margin-left: 5%;
-   margin-top: 5%;
 }
 
 .rodape{

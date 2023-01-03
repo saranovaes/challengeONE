@@ -24,3 +24,4 @@ function copiar(){
 	document.execCommand('copy');
 	alert('Texto Copiado');
 }
+
